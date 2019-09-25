@@ -38,6 +38,8 @@ httpsServer.listen(8080, '127.0.0.1', () => {
 });
 {% endhighlight %}
 
+Start the node server by running `node index.js`.
+
 next visit `https://127.0.0.1:8080`. Your browser should complain about the self signed certificate but just click accept and continue. You should see `hello world` on the page and the url bar should show https with a broken lock(due to self signed cert).
 
 
